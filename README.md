@@ -11,7 +11,7 @@ You can interact with the live app locally by running:
 ```bash
 streamlit run app.py
 ```
-📂 Project Structure
+## 📂 Project Structure
 ```bash
 House-Price-Prediction/
 │
@@ -21,7 +21,7 @@ House-Price-Prediction/
 ├── notebook.ipynb          # Full ML workflow with EDA, training, and evaluation
 └── README.md               # Project documentation
 ```
-🧠 ML Workflow
+## 🧠 ML Workflow
 1. Data Preprocessing
 
 - Handle missing values
@@ -36,16 +36,16 @@ House-Price-Prediction/
 
 - Random Forest Regressor (final model)
 
-3.Evaluation
+3. Evaluation
 
 - Mean Squared Error (MSE)
 
 - R² Score
 
-🖥️ Streamlit Web App
+## 🖥️ Streamlit Web App
 The Streamlit app allows users to input housing features and get a predicted house price instantly. It uses the trained model (model.pkl) for real-time inference.
 
-🔧 Technologies Used
+## 🔧 Technologies Used
 - Python
 
 - pandas, numpy, scikit-learn
@@ -54,26 +54,26 @@ The Streamlit app allows users to input housing features and get a predicted hou
 
 - joblib
 
-📈 Results
+## 📈 Results
 Random Forest R² Score: ~0.88
 
 MSE: ~877,722,021
 
-📦 How to Run
+## 📦 How to Run
 1. Clone the repo:
 ```bash
 git clone https://github.com/your-username/house-price-prediction.git
 cd house-price-prediction
 ```
-3. Install dependencies:
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-5. Run the app:
+3. Run the app:
 ```bash
 streamlit run app.py
 ```
-📌 Notes
+## 📌 Notes
 - Dataset used: train.csv from Kaggle's House Prices competition.
 
 - Make sure Python is added to your system PATH.
