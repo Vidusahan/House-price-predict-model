@@ -80,6 +80,6 @@ streamlit run app.py
 
 - If streamlit is not installed, run: pip install streamlit
 
-📬 Contact
+## 📬 Contact
 Feel free to reach out on LinkedIn or open an issue if you have questions!
 
